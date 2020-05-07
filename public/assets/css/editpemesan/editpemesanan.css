@@ -1,0 +1,115 @@
+body {
+	overflow-x: scroll;
+	background-color: #4a4a4a;
+}
+
+.container {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	width:3000px;
+	height:300%;
+	box-shadow: 0px 0px 300px;
+	overflow: hidden;
+}
+
+.spanduk {
+	position: absolute;
+	top: 0px;
+	left: -10%;
+	width: 120%;
+	text-align: center;
+	height: 400px;
+	background-color: #3b3939;
+	font-size: 180pt;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 30px;
+	transform: skew(-10deg);
+	padding-top: 100px;
+	z-index: -1;
+}
+
+input {
+	position: absolute;
+	left: 50%;
+	top: 700px;
+	transform: translateX(-50%);
+	width: 2200px;
+	height: 200px;
+	border-radius: 30px;
+	font-size: 50pt;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-left: 100px;
+}
+
+label {
+	position: absolute;
+	top: 520px;
+	left: 50%;
+	transform: translateX(-50%) skew(-8deg);
+	font-size: 90pt;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 20px;
+}
+
+textarea{
+	position: absolute;
+	top: 2200px;
+	left: 50%;
+	width: 2200px;
+	height: 900px;
+	border-radius: 15px;
+	transform: translateX(-50%);
+	font-size:50pt;
+	padding :15px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+	position: absolute;
+	top: 3100px;
+	left: 500px;
+	border-radius : 15px;
+	background-color: #EE2F05;
+	width: 600px;
+	height: 200px;
+	font-size: 60pt;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	cursor:pointer;
+}
+
+.tropi {
+	position: absolute;
+	top: 1500px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 60pt;
+}
+
+span {
+	cursor:pointer;
+	transition: .5s;
+}
+
+span:hover {
+	font-size: 80pt;
+}
+
+.boxnilai {
+	position: absolute;
+	top:800px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 600px;
+	height: 600px;
+	border-radius: 15px;
+	background-color: orange;
+	font-size: 400pt;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	transition: .3s;
+}
+
+

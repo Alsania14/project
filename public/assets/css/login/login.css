@@ -1,0 +1,49 @@
+.container {
+	position: absolute;
+	width: 1900px;
+	left: 50%;
+	height: 100%;
+	transform: translateX(-50%);
+}
+
+h1 {
+	position: absolute;
+	font-size: 40pt;
+	color: white;
+	font-family: Impact;
+	left: 400px;
+}
+
+label.login {
+	position: absolute;
+	font-size: 30pt;
+	font-family: Impact;
+	color: white;
+	left: 400px;
+}
+
+input.log {
+	position: absolute;
+	left:  400px;
+	border:5px solid white;
+	font-size: 30pt;
+	height: 50px;
+	width: 590px;
+}
+
+.button {
+	position: absolute;
+	top: 730px;
+	left: 400px;
+	border :5px solid black;
+	background-color: #a8a8a8;
+	height: 70px;
+	width: 200px;
+	font-size: 30pt;
+	color: black;
+	font-family: Impact;
+}
+
+body {
+	background-color: black;
+}

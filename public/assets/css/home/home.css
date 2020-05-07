@@ -1,0 +1,575 @@
+body {
+	overflow-x: scroll;
+}
+
+.container {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	width:3000px;
+	height:300%;
+	border:0px solid black;
+}
+
+.logout {
+	position: absolute;
+	right: 880px;
+	font-family: Impact;
+	font-weight: lighter;
+	background-color: black;
+	font-size: 50pt;
+	padding: 10px;
+	color: white;
+	top: 50%;
+	cursor: pointer;
+	text-decoration: none;
+	transform:translateY(-50%);
+}
+
+.back{
+	position: absolute;
+	width: 100%;
+	height: 1200px;
+	border-bottom: 20px solid black;
+	box-shadow: 0px 0px 300px black;
+}
+
+.back img{
+	object-fit: cover;
+}
+
+img.profil{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	border:15px solid white;
+}
+
+.back label{
+	position: absolute;
+	font-size: 60pt;
+	color: white;
+	left: 50%;
+	bottom: 50px;
+	font-family: Impact;
+	text-transform: uppercase;
+	transform: translateX(-50%);
+}
+table {
+	position: relative;
+	font-size: 50pt;
+	width: 100%;
+	height: 0px;
+	top: 1300px;
+	color: white;
+	padding: 50px;
+	background-color: #3b3939;
+	box-shadow: 0px 0px 300px black;
+}
+
+th	{
+	border:5px solid black;
+}
+
+td {
+	border:5px solid black;
+	padding-left: 70px;
+}
+
+.panel {
+	position: absolute;
+	top: 2300px;
+	left: 0%;
+	transform: translateX(0%);
+	width: 1200px;
+	overflow: hidden;
+	height: 700px;
+	transition: .2s;
+	cursor: pointer;
+	background-color: #3b3939;
+	box-shadow: 0px 0px 300px black;
+	z-index: -1;
+}
+
+.cov {
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: 600px;
+	transition: .2s;
+	background-color: #3b3939;
+	z-index: 5;
+}
+.cov img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.cov h1 {
+	position: absolute;
+	font-size: 60pt;
+	color: black;
+	z-index: 1;
+}
+
+.panel h1{
+	position: absolute;
+	padding-left: 30px;
+	font-size: 60pt;
+	color: white;
+	z-index: 1;
+	mix-blend-mode: lighten;
+}
+
+.panel p{
+	position: absolute;
+	padding: 30px;
+	top: 190px;
+	width: 520px;
+	text-align: left;
+	font-size: 40pt;
+	color: white;
+	z-index: 1;
+	transition: .2s;
+}
+
+.panel table {
+	position: absolute;
+	padding: 15px;
+	top: 40px;
+	left: 700px;
+	width: 1500px;
+	font-size: 30pt;
+	cursor: default;
+}
+
+.panel th {
+	height: 100px;
+	background-color: #1a1919;
+}
+
+.panel tr {
+	height: 100px;
+}
+
+.panel button{
+	height: 50px;
+	width: 80px;
+	font-size: 20pt;
+	font-family: Times New Roman;
+	cursor: pointer;
+}
+
+.chatroom {
+	position: fixed;
+	top: -5260px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 3600px;
+	height: 1700px;
+	background-color: grey;
+	z-index: 10;
+	transition: .2s;
+}
+
+table.side{
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 1200px;
+	border:5px solid black;
+}
+
+th {
+	height: 100px;
+}
+
+div.warna{
+	position: absolute;
+	top: 950px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 50pt;
+	text-transform: uppercase;
+	color: white;
+}
+
+div.warna2 {
+	position: absolute;
+	top: 1050px;
+	width: fit-content;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 50pt;
+	text-transform: uppercase;
+	color: white;
+}
+
+div.warna3 {
+	position: absolute;
+	top: 1150px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 35pt;
+	text-transform: uppercase;
+	color: white;
+}
+
+div.warna4 {
+	position: absolute;
+	top: 1250px;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%);
+	font-size: 35pt;
+	color: white;
+}
+
+img.fotopengajar {
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 500px;
+	width: 500px;
+	object-fit: cover;
+	border: 15px solid white;
+	border-radius: 50%;
+}
+
+.test {
+	font-size: 150pt;
+	color: red;
+	position: absolute;
+	top: 820px;
+}
+
+.panelchatroom {
+	position: absolute;
+	padding: 80px;
+	font-size: 90pt;
+	top: 0px;
+	overflow-y: scroll;
+	right: 0px;
+	height: 1440px;
+	width: 2100px;
+	background-color: grey;
+}
+
+.baloon {
+	position: relative;
+	background-color: #b3b3b3;
+	overflow-wrap: break-word;
+	width: 900px;
+	margin-top: 10px;
+	font-size: 70pt;
+	border-radius: 20px;
+	color: black;
+	padding: 20px;
+}
+
+.chatroom input{
+	position: absolute;
+	font-size: 60pt;
+	font-family: 'Times New Roman', Times, serif;
+	bottom: 0px;
+	right: 0px;
+	height: 150px;
+	width: 1880px;
+	background-color: #c7c7c7;
+	z-index: 2;
+}
+
+.pemesanan {
+	position: fixed;
+	top: -33300px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 3600px;
+	height: 1700px;
+	background-color: grey;
+	box-shadow : 0px 0px 300px black;
+	transition: top .2s;
+}
+
+
+.pemesanan input{
+	position: absolute;
+	border-radius: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	left: 1900px;
+	font-size: 60pt;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: white;
+	width: 1200px;
+	height: 100px;
+}
+
+.pemesanan label{
+	position: absolute;
+	font-size: 60pt;
+	color:black;
+	left: 1230px;
+	width: 650px;
+	text-align: left;
+}
+
+.pemesanan img{
+	position: absolute;
+	top: -500px;
+	left: 50%;
+	transform: translatex(-50%);
+	height: 2600px;
+	width:2600px;
+}
+
+.biaya {
+	position: absolute;
+	border-radius:15px;
+	top: 1000px;
+	left: 1800px;
+	width: 1200px;
+}
+
+.setdata {
+	position: absolute;
+	left: 0px;
+	background-color: #3b3939;;
+	height: 100%;
+	width: 1200px;
+	box-shadow: 0px 0px 300px black;
+}
+
+.spanduk {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 100px;
+	color: white;
+	font-size: 60pt;
+	text-align: center;
+	width: 1130px;
+	z-index: 1;
+	border: 10px solid black;
+}
+
+.setdata img {
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 500px;
+	width: 500px;
+	object-fit: cover;
+	border: 15px solid white;
+	border-radius: 50%;
+}
+
+.paneljadwal {
+	position: absolute;
+	top: 3200px;
+	right: 0px;
+	overflow: hidden;
+	height: 700px;
+	width: 1200px;
+	background-color: #3b3939;
+	box-shadow: 0px 0px 300px black;
+	cursor: pointer;
+	transition: width .2s;
+}
+
+.paneljadwal img{
+	position: absolute;
+	right: 0px;
+	width: 600px;
+	height: 100%;
+	z-index: 1;
+}
+
+.paneljadwal h1{
+	position: absolute;
+	padding-left: 30px;
+	font-size: 60pt;
+	color: white;
+	z-index: 1;
+	mix-blend-mode: lighten;
+}
+
+.paneljadwal p{
+	position: absolute;
+	padding: 30px;
+	top: 190px;
+	width: 520px;
+	text-align: left;
+	font-size: 40pt;
+	color: white;
+	z-index: 1;
+	transition: .2s;
+}
+
+.paneljadwal table {
+	position: absolute;
+	text-align: center;
+	top: 40px;
+	left: 700px;
+	width: 1500px;
+	font-size: 30pt;
+	cursor: default;
+}
+.paneljadwal td{
+	overflow: hidden;
+	padding:0px;
+}
+
+.paneljadwal th {
+	height: 100px;
+	background-color: #1a1919;
+}
+
+.paneljadwal tr {
+	height: 100px;
+}
+
+.paneldetail {
+	position: fixed;
+	top: -30300px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 3200px;
+	height: 1700px;
+	transition: top .5s;
+	background-color: grey;
+	box-shadow: 0px 0px 300px;
+}
+
+.panelstatus{
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	width: 1200px;
+	background-color: #3b3939;
+	vertical-align: middle;
+}
+
+.kotakatas{
+	position: absolute;
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 50pt;
+	color: white;
+	left: 24px;
+	top: 10px;
+	width: 95%;
+	height: 120px;
+	border:10px solid black;
+}
+
+.kotakstatus {
+	position: absolute;
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0px 0px 300px black;
+	font-size: 380pt;
+	width: 800px;
+	height: 800px;
+	background-color: #3b3939;
+	top: 400px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.detailinput{
+	position: absolute;
+	right: 600px;
+	height: 100px;
+	width: 900px;
+	font-size: 50pt;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+}
+
+.detaillokasi{
+	position: absolute;
+	right: 1600px;
+	font-size: 80pt;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.detailinfo{
+	position: absolute;
+	padding : 10px;
+	top: 650px;
+	right: 1050px;
+	font-size: 50pt;
+	color:black;
+	font-family: 'Times New Roman', Times, serif;
+	width:900px;
+	height:600px;
+	background-color: white;
+	border-radius: 15px;
+	word-wrap: break-word;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.buttondetail{
+	position: absolute;
+	text-align: center;
+	font-size: 60pt;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 15px;
+	width: auto;
+	height: 100px;
+	background-color: rgb(206, 206, 206);
+	transition: background-color .5s;
+}
+
+.buttondetail:hover{
+	color:rgb(214, 214, 214);
+	box-shadow: 0px 0px 100px;
+	background-color: rgb(68, 66, 66);
+}
+
+.emot{
+	position: absolute;
+	top: 1540px;
+	left: 1420px;
+	z-index: 5;
+	height: 190px;
+	width: 190px;
+	font-size: 90pt;
+	transition: .3s;
+	transform: translate(-50%);
+	cursor: pointer;
+}
+
+.showemot{
+	position: absolute;
+	font-size: 120pt;
+	bottom: 0px;
+	left: 1340px;
+	width: 0px;
+	height: 0px;
+	background-color: rgb(223, 223, 223);
+	z-index: 1;
+	transition: .5s;
+	border-radius: 15px;
+	overflow-y: scroll;
+	word-wrap: break-word;
+	letter-spacing: 25px;
+	padding-bottom: 200px;
+}
+
+
+

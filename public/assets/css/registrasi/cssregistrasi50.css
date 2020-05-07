@@ -1,0 +1,95 @@
+.container {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	width:2600px;
+	height:200%;
+	border:5px solid black;
+}
+
+h1 {
+	position: absolute;
+	top: 180px;
+	right: 350px;
+	color: black;
+	font-weight: lighter;
+	font-size: 60pt;
+	word-spacing: 25px;
+	font-family: Impact;
+}
+
+label {
+	position: absolute;
+	right: 700px;
+	color: black;
+	font-family: Impact;
+	font-size: 45pt;
+	transition: opacity .3s;
+}
+input {
+	position: absolute;
+	right: 60px;
+	width: 590px;
+	height: 50px;
+	border:5px solid black;
+	font-family: Impact;
+	color: black;
+	font-size: 30pt;
+}
+select {
+	position: absolute;
+	right: 60px;;
+	width: 600px;
+	height: 60px;
+	font-size: 30pt;
+	color: black;
+	font-family: Impact;
+	border:5px solid black;
+}
+
+input.radio {
+	position: absolute;
+	display: inline-block;
+	width:60px;
+	height:60px;
+	right: 700px;
+	background-color: red;
+}
+
+select.tanggal {
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	top: 1560px;
+	background-color: white;
+	right: 720px;
+}
+
+select.bulan {
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	top: 1560px;
+	background-color: white;
+	right: 390px;
+}
+
+select.tahun {
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	top: 1560px;
+	background-color: white;
+	right: 60px;
+}
+
+ul {
+	position: absolute;
+	top: 800px;
+	left: 500px;
+	list-style-type: none;
+	width: 700px;
+	border-radius: 5pc;
+	padding:40px;
+}
